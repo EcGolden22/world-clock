@@ -1,10 +1,11 @@
 body {
-  background: radial-gradient(
-    1091px at 106.5% 111.5%,
-    rgb(250, 246, 213) 0.1%,
-    rgb(218, 147, 93) 42.2%,
-    rgb(137, 86, 67) 74.3%,
-    rgb(67, 39, 39) 100.2%
+  background-image: linear-gradient(
+    to top,
+    #a8896c,
+    #8e6f59,
+    #735746,
+    #594034,
+    #402a23
   );
   font-family: "Noto Sans", sans-serif;
 }
@@ -61,6 +62,7 @@ select {
   background-color: #915b4a;
   margin: 0 auto;
   opacity: 75%;
+  border-color: #402a23;
 }
 h1 {
   text-align: center;
