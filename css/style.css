@@ -14,7 +14,8 @@ body {
   background-color: #ffebbb;
   padding: 30px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
+  border-radius: 20px;
+  margin-bottom: 0;
 }
 
 .city {
@@ -23,6 +24,7 @@ body {
   margin: 20px 0;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
   padding: 20px 0;
+  color: #483d3c;
 }
 
 .city:last-child {
@@ -54,6 +56,7 @@ select {
   padding: 10px;
   border-radius: 4px;
   font-size: 18px;
+  font-weight: bold;
   color: #feffdf;
   background-color: #915b4a;
   margin: 0 auto;
@@ -63,10 +66,17 @@ h1 {
   text-align: center;
   font-family: "Noto Sans", sans-serif;
   font-size: 40px;
+  color: #483d3c;
 }
 
 footer {
   text-align: center;
-  font-size: 18px;
+  margin-left: 350px;
+  font-size: 14px;
   color: rgba(0, 0, 0, 0.8);
+  margin-top: 15px;
+}
+
+a {
+  color: #22313f;
 }
