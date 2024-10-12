@@ -6,18 +6,29 @@
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>World Clock - Liz Golden</title>
   </head>
   <body>
     <div class="container">
-      <h1>World Clock</h1>
+      <h1>World Clock 🕰️</h1>
 
       <select id="city">
         <option value="">Select a city...</option>
         <option value="current">Current Location</option>
+        <option value="Atlantic/Bermuda">Bermuda</option>
+        <option value="Africa/Djibouti">Djibouti</option>
+        <option value="Asia/Dubai">Dubai</option>
+        <option value="Pacific/Fiji">Fiji</option>
         <option value="Europe/London">London</option>
         <option value="America/New_York">New York</option>
         <option value="Australia/Sydney">Sydney</option>
+        <option value="Canada/Yukon">Yukon</option>
       </select>
       <div id="cities">
         <div class="city" id="los-angeles">

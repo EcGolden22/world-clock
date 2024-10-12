@@ -1,11 +1,17 @@
 body {
-  background-color: aquamarine;
-  font-family: sans-serif;
+  background: radial-gradient(
+    1091px at 106.5% 111.5%,
+    rgb(250, 246, 213) 0.1%,
+    rgb(218, 147, 93) 42.2%,
+    rgb(137, 86, 67) 74.3%,
+    rgb(67, 39, 39) 100.2%
+  );
+  font-family: "Noto Sans", sans-serif;
 }
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background-color: white;
+  background-color: #ffebbb;
   padding: 30px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -44,19 +50,23 @@ h2 {
 
 select {
   display: block;
-  width: 100%;
+  width: 70%;
   padding: 10px;
   border-radius: 4px;
   font-size: 18px;
+  color: #feffdf;
+  background-color: #915b4a;
+  margin: 0 auto;
+  opacity: 75%;
 }
 h1 {
   text-align: center;
-  font-family: sans-serif;
-  font-size: 36px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 40px;
 }
 
 footer {
   text-align: center;
   font-size: 18px;
-color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
